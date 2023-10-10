@@ -9,7 +9,11 @@ describe('MeteoTableComponent', () => {
 
   beforeEach(() => {
     TestBed.configureTestingModule({
+<<<<<<< HEAD
       imports: [HttpClientModule],
+=======
+      imports:[HttpClientModule],
+>>>>>>> adcf55854059527e461402a4ea8ff564880a9a6b
       declarations: [MeteoTableComponent]
     });
     fixture = TestBed.createComponent(MeteoTableComponent);

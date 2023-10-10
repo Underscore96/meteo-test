@@ -7,8 +7,20 @@ import { HttpClientModule } from '@angular/common/http';
 
 describe('AppComponent', () => {
   beforeEach(() => TestBed.configureTestingModule({
+<<<<<<< HEAD
     imports: [RouterTestingModule, HttpClientModule],
     declarations: [AppComponent, MeteoChartComponent, MeteoTableComponent]
+=======
+    imports: [
+      RouterTestingModule,
+      HttpClientModule
+    ],
+    declarations: [
+      AppComponent,
+      MeteoChartComponent,
+      MeteoTableComponent
+    ]
+>>>>>>> adcf55854059527e461402a4ea8ff564880a9a6b
   }));
 
   it('should create the app', () => {
